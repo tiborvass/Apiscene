@@ -4,9 +4,12 @@
     <a id="mobile-menu" href="#menu" class="mobile mobile-button menu"><i class="icon-menu"></i><span>{{i18n "Menu"}}</span></a>
 
     <ul class="nav site-nav desktop">
+      <li>
+        <span style="font-weight: bold;">{"APIScene": "logo"}</span>
+      </li>
       {{#if canView}}
       <li class="dropdown">
-        <a class="View" href="/">{{i18n "View"}}</a>
+        <a class="View" href="/">{{i18n "Posts"}}</a>
         <div class="dropdown-menu">
           <ul role="menu" aria-labelledby="dLabel">
             <li><a class="top" href="/top">{{i18n "Top"}}</a></li>
@@ -29,6 +32,21 @@
         </div>
       </li>
       {{/if}}
+      <li>
+        <a href="http://api500.com/post/52003926392/the-next-conferences-on-apis-to-attend-in-2014">Events</a>
+      </li>
+      <li>
+        <a href="http://www.api-jobs.com">Jobs</a>
+      </li>
+      <li>
+        <a href="http://apicodex.3scale.net">Resources</a>
+      </li>
+      <li>
+        <a href="https://groups.google.com/d/forum/api-craft‎">Experts</a>
+      </li>
+      <li>
+        <a href="https://www.google.com">Find APIs</a>
+      </li>
       {{#if isAdmin}}
       <li class="dropdown">
         <a class="admin" href="/">{{i18n "Administration"}}</a>
