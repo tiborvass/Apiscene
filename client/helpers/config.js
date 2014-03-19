@@ -24,7 +24,7 @@ SharrreOptions={
 	  // facebook: {layout: 'box_count'},
 	  twitter: {
 	    count: 'vertical',
-	    via: 'TelescopeApp'
+	    via: 'apiscene.com'
 	  },
 	},
 	enableHover: false,
