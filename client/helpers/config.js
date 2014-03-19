@@ -24,7 +24,7 @@ SharrreOptions={
 	  // facebook: {layout: 'box_count'},
 	  twitter: {
 	    count: 'vertical',
-	    via: 'apiscene.com'
+	    via: 'APIscene.com'
 	  },
 	},
 	enableHover: false,
